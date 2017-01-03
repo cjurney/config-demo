@@ -1,0 +1,12 @@
+configuration:  
+  projectName: syndicationo
+server:  
+  port: 8000
+highwire:  
+  atom: 
+    base: http://sass.highwire.org/
+---
+spring:  
+  profiles: development
+server:  
+  port: 8001
